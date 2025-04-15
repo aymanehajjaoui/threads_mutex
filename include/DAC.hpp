@@ -3,13 +3,10 @@
 #pragma once
 
 #include "Common.hpp"
-#include <thread>
-#include <atomic>
 #include <type_traits>
 
 void initialize_DAC();
 
-// Templated version for flexible output types
 template<typename T>
 float OutputToVoltage(T value)
 {

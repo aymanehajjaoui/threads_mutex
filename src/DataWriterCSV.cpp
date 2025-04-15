@@ -1,10 +1,7 @@
-/* DataWriter.cpp */
+/* DataWriterCSV.cpp */
 
 #include "DataWriterCSV.hpp"
 #include <iostream>
-#include <fstream>
-#include <thread>
-#include <chrono>
 #include <type_traits>
 
 template <typename T>
